@@ -1,0 +1,75 @@
+/* Основные стили для темной темы */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #121212; /* Темный фон */
+    color: #e0e0e0; /* Светлый текст */
+    line-height: 1.6;
+}
+
+header {
+    background-color: #1f1f1f; /* Темный фон для шапки */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.title {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.intro {
+    margin-bottom: 30px;
+}
+
+.intro p {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+}
+
+a {
+    color: #ff5722; /* Оранжевая ссылка */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.games-link, .news-link {
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #1f1f1f;
+    color: #bbb;
+    padding: 10px;
+    text-align: center;
+}
+
+footer p {
+    font-size: 0.9rem;
+}
+
+/* Мобильная адаптация */
+@media (max-width: 768px) {
+    .title {
+        font-size: 2rem;
+    }
+
+    .intro p {
+        font-size: 1rem;
+    }
+}
